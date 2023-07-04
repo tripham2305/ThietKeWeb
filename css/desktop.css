@@ -1,0 +1,378 @@
+@media screen and (min-width: 1100px) {
+    .search-but,.copyright a,.nav li a,.nav li a:not(.link-home):before,.internal-a,.internal-a:after,.google-map,.social li a {
+        transition:all .3s ease-in-out
+    }
+
+    .link-home {
+        -webkit-transition: border-color .3s ease-in-out;
+        transition: border-color .3s ease-in-out
+    }
+
+    .link-home::before,.link-home::after {
+        -webkit-transition: opacity .3s ease-in-out;
+        transition: opacity .3s ease-in-out
+    }
+
+    .search-but:hover {
+        color: #f68e2a
+    }
+
+    .language button:hover {
+        color: #f68e2a
+    }
+
+    .nav-click:hover {
+        opacity: .5
+    }
+
+    .social li a:hover {
+        color: #f68e2a
+    }
+
+    .copyright a:hover {
+        color: #f68e2a
+    }
+
+    .nav li a:not(.link-home):hover {
+        color: #f68e2a
+    }
+
+    .nav li a:not(.link-home):hover::before {
+        width: 21px
+    }
+
+    .link-home:hover {
+        border-color: #f68e2a
+    }
+
+    .link-home:hover::before {
+        opacity: 0
+    }
+
+    .link-home:hover::after {
+        opacity: 1
+    }
+
+    .internal-a:hover:after {
+        background-color: #f68e2a
+    }
+
+    .internal-a:hover {
+        color: #f68e2a
+    }
+
+    .box-nav li:not(.current):hover a,.sub-news li:not(.current):hover a {
+        border-color: #f68e2a
+    }
+
+    .box-nav li:not(.current):hover a span,.sub-news li:not(.current):hover a span {
+        background-color: #f68e2a
+    }
+
+    .box-nav li:not(.current):hover a::after,.sub-news li:not(.current):hover a::after {
+        width: 100%
+    }
+
+    .box-nav li:hover > span,.box-nav li.active > span,.sub-news li:hover > span,.sub-news li.current > span {
+        opacity: 1;
+        -webkit-transform: translate3d(0,-50%,0) scale3d(1,1,1);
+        transform: translate3d(0,-50%,0) scale3d(1,1,1);
+        visibility: visible
+    }
+
+    .google-map:hover {
+        color: #f68e2a
+    }
+
+    .close-video,.close-pics,.close-album,.close-popup::after,.close-top,.close-details,.close-news::after,.close-news {
+        transition: all .3s ease-in-out
+    }
+
+    .close-video:hover {
+        background-color: rgba(255,255,255,0.1);
+        box-shadow: 0 0 30px 0 rgba(255,255,255,0.3)
+    }
+
+    .close-pics:hover {
+        background-color: rgba(255,255,255,0.3);
+        box-shadow: 0 0 20px rgba(255,255,255,0.8)
+    }
+
+    .close-album:hover {
+        background-color: rgba(255,255,255,0.3);
+        box-shadow: 0 0 20px rgba(255,255,255,0.8)
+    }
+
+    .close-popup:hover::after {
+        border: 10px solid #fff
+    }
+
+    .close-top:hover {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9)
+    }
+
+    .close-details:hover {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9)
+    }
+
+    .close-news:hover,.zoom-large:hover {
+        background-color: #a89c85
+    }
+
+    .close-news:hover::after,.zoom-large:hover::after {
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg)
+    }
+
+    .go-top {
+        transition: all .3s ease-in-out
+    }
+
+    .go-top:hover {
+        background-color: rgba(0,0,0,0.2)
+    }
+
+    .item-search a,.item-search::before {
+        transition: all .3s ease-in-out
+    }
+
+    .item-search:hover a,.item-search:hover::before {
+        background-color: #f68e2a!important
+    }
+
+    .company-info a:hover {
+        color: #f68e2a
+    }
+
+    .go-page,.go-more,.business-home .col-e h3 a {
+        transition: all .3s ease-in-out;
+        border: 0 solid #f68e2a
+    }
+
+    .go-page:hover,.go-more:hover {
+        background-color: #a89c85;
+        border: 5px solid #f68e2a
+    }
+
+    .wrap-gopage {
+        cursor: pointer
+    }
+
+    .wrap-gopage span {
+        transition: color .3s ease-in-out
+    }
+
+    .wrap-gopage:hover span {
+        color: #f68e2a
+    }
+
+    .box-news-home:hover .text-news-home {
+        background-color: #f68e2a;
+        color: #fff
+    }
+
+    .box-news-home:hover .pic-news-home {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05)
+    }
+
+    .box-news-home:nth-child(1):hover .pic-news-home:before {
+        border-left: 30px solid #f68e2a
+    }
+
+    .box-news-home:nth-child(2):hover .pic-news-home:before {
+        border-left: 30px solid #f68e2a
+    }
+
+    .box-news-home:nth-child(3):hover .pic-news-home:before {
+        border-right: 30px solid #f68e2a
+    }
+
+    .box-news-home:nth-child(4):hover .pic-news-home:before {
+        border-right: 30px solid #f68e2a
+    }
+
+    .box-news-home:hover .go-page {
+        background-color: #61676d;
+        border: 5px solid #f68e2a
+    }
+
+    .business-home .col-e {
+        cursor: pointer
+    }
+
+    .business-home .col-e:hover h3 a {
+        color: #f68e2a
+    }
+
+    .nav-history li a,.a-member {
+        transition: all .3s ease-in-out
+    }
+
+    .nav-history li a:hover {
+        color: #f68e2a
+    }
+
+    .a-member:hover {
+        color: #f68e2a
+    }
+
+    .i-item,.box-item:after,.contact-project a,.back-page {
+        transition: all .3s ease-in-out
+    }
+
+    .box-item:after {
+        content: ' ';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 0;
+        height: 0;
+        opacity: 0;
+        border-radius: 50%;
+        background-color: rgba(0,0,0,0.3);
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%)
+    }
+
+    .box-item:hover:after {
+        width: 100%;
+        height: 100%;
+        opacity: 1
+    }
+
+    .box-item:hover .i-item {
+        background-color: #61676d;
+        border: 5px solid #f68e2a
+    }
+
+    .contact-project a:hover {
+        color: #f68e2a
+    }
+
+    .back-page:before {
+        content: ' ';
+        position: absolute;
+        bottom: -5px;
+        width: 0;
+        height: 1px;
+        background-color: #f68e2a;
+        left: 5px
+    }
+
+    .back-page:hover {
+        background-color: rgba(0,0,0,0.3)
+    }
+
+    .item-project:before,.list-edu li a,.list-edu li a:before,.item-pro:before,.read-more {
+        transition: all .3s ease-in-out
+    }
+
+    .item-project:hover:before {
+        border-width: 7px
+    }
+
+    .item-pro:before {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0 solid #f68e2a
+    }
+
+    .item-pro:hover:before {
+        border-width: 7px
+    }
+
+    .read-more:hover {
+        color: #fff
+    }
+
+    .item-news1,.pic-news1,.item-news,.pic-news {
+        transition: all .3s ease-in-out
+    }
+
+    .item-news1:hover {
+        background-color: #f68e2a
+    }
+
+    .item-news:hover {
+        background-color: #f68e2a
+    }
+
+    .item-news:hover .txt-news h3 {
+        color: #fff
+    }
+
+    .item-news1:hover .pic-news1 {
+        background-position: 100% 60%
+    }
+
+    .btn-orange {
+        transition: all .3s ease-in-out
+    }
+
+    .btn-orange:hover {
+        background-color: #61676d;
+        border: 5px solid #f68e2a
+    }
+
+    .download-but a:hover {
+        background-color: #cb7d3b
+    }
+
+    .download-but a:hover::before {
+        border: 11px solid #f68d34
+    }
+
+    .download-but a:hover::after {
+        background-color: #f68d34
+    }
+
+    .back-recruitment {
+        transition: all .3s ease-in-out
+    }
+
+    .back-recruitment:hover {
+        background-color: #cb7d3b;
+        color: #fff
+    }
+
+    .box-estate .circle-estate,.box-estate h2,.box-estate .circle-estate img {
+        transition: all .3s ease-in-out
+    }
+
+    .circle-estate::after {
+        content: '';
+        position: absolute;
+        width: calc(100% + 10px);
+        height: calc(100% + 10px);
+        border-radius: 50%;
+        top: -5px;
+        left: -5px;
+        border: 5px solid rgba(255,255,255,0.1);
+        transition: all .3s ease-in-out;
+        opacity: 0
+    }
+
+    .box-estate:hover .circle-estate {
+        background-color: #f68e2a;
+        box-shadow: 0 0 30px 0 rgba(255,255,255,0.3)
+    }
+
+    .box-estate:hover h2 {
+        color: #f68e2a
+    }
+
+    .box-estate:hover .circle-estate::after {
+        opacity: 1
+    }
+
+    .box-estate:hover .circle-estate img {
+        transform: scale(0.92)
+    }
+}
